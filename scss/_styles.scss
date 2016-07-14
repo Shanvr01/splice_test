@@ -1,0 +1,364 @@
+/**********************************
+	GENERAL
+***********************************/
+
+body {
+	color: #c8c8c8;
+}
+
+p {
+	margin-top: 14px;
+}
+
+h5 {
+	margin-bottom: 0;
+	margin-top: 7px;
+}
+
+
+/**********************************
+	HEADER
+***********************************/
+
+.delivery {
+	margin-top: 30px;
+	text-align: center;
+	padding-right: 0;
+	// Mobile Query
+	@media (max-width: 400px) {
+		width: 100%;
+		}
+	// Tablet Query
+	@media (max-width: 800px) {
+		width: 100%;
+		}
+
+}
+
+.sign-in {
+	margin-bottom: 0;
+	// Mobile Query
+	@media (max-width: 400px) {
+		text-align: center;
+		}
+	// Tablet Query
+	@media (max-width: 800px) {
+		width: 100%;
+		}
+}
+
+h4 {
+	margin-bottom: 0;
+}
+
+form.search {
+	input {
+		float: left;
+		height: 29px;
+		// Mobile Query
+		@media (max-width: 400px) {
+		width: 80%;
+		}
+		
+	}
+
+	input[name='categories'] {
+		width: 85%;
+		// Mobile Query
+		@media (max-width: 400px) {
+		width: 63%;
+		}
+	}
+
+	input[type='submit'] {
+		width: 15%;
+		padding: 0;
+	}
+}
+
+.cat-input {
+	padding-right: 0;
+}
+
+.sign {
+	color: #c8c8c8;
+}
+
+.logo {
+	margin-top: 16px;
+	max-width: 125%;
+
+}
+
+.deliv-txt {
+	font-size: 12px;
+	margin-top: 0;
+}
+ 
+.tel {
+	text-align: right;
+	padding-right: 0;
+	// Mobile Query
+	@media (max-width: 400px) {
+		text-align: center;
+		}
+}
+
+
+/**********************************
+	NAV
+***********************************/
+
+nav {
+	max-width: 980px;
+	margin: auto;
+	background: #344457; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#415265,  #273749); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#415265,  #273749); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#415265,  #273749); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#415265,  #273749); /* Standard syntax */
+	border-radius: 5px;
+	// Mobile Query
+	@media (max-width: 400px) {
+		width: 95%;
+		.nav-tab {
+			text-align: center;
+			display: block;
+			border-bottom: 2px solid white;
+		}
+	}
+
+}
+
+
+.menu-tab, .menu-tab:focus, {
+	color: #fff;
+	border-right: solid 1px white;
+	// Mobile Query
+	@media (max-width: 400px) {
+		img {
+			display: inline-block;
+		}
+	}
+}
+
+.menu-tab:hover {
+	color: #fff;
+	border-right: solid 1px white;
+	background: #128ad3;
+}
+
+.shop {
+	text-align: right;
+	width: 36.8%;
+	// Mobile Query
+	@media (max-width: 400px) {
+		text-align: left;
+		width: 100%;
+	}
+}	
+.shop-bag {
+	border-right: none;
+}
+
+.shop-bag:hover {
+	border-right: none;
+}
+
+.menu li a {
+	line-height: 1.5;
+}
+
+.bag {
+	margin-right: 50px;
+}
+
+/**********************************
+	SLIDER
+***********************************/
+.banner-1 {
+	color: white;
+	padding: 22px 17px;
+	width: 230px;
+	height: 180px;
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left bottom, #3b4b5e, #647e9f); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(top right, #3b4b5e, #647e9f); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(top right, #3b4b5e, #647e9f); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to top right, #3b4b5e, #647e9f); /* Standard syntax */
+	border: 5px solid #3b4b5e;
+	font-family: 'Arvo';
+
+	h3 {
+		margin-bottom: 0.1rem;
+		font-family: 'Arvo';
+		display: inline-block;
+		padding: 2px 3px;
+		background: #1088d0;
+	}
+
+	h4 {
+		margin-bottom: 0.1rem;
+		font-family: 'Arvo';
+		display: inline-block;
+		padding: 0px 3px;
+		background: #1088d0;
+	}
+
+	p {
+		margin-top: 0;
+	}
+}
+
+.banner-2 {
+	color: white;
+	margin-top: 20px;
+	padding: 20px 21px;
+	width: 230px;
+	height: 168px;
+	background: #d35e9e;
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left bottom, #d15a9a, #ed91d8); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(top right, #d15a9a, #ed91d8); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(top right, #d15a9a, #ed91d8); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to top right, #d15a9a, #ed91d8); /* Standard syntax */
+	border: 5px solid #d15a9a;
+	font-family: 'Arvo';
+
+	h4 {
+		margin-bottom: 0.1rem;
+		font-family: 'Arvo';
+		display: inline-block;
+		padding: 2px 3px;
+		background: #3b4b5e;
+	}
+
+	p {
+		margin-top: 0;
+
+	}
+}
+
+.img {
+	padding: 0;
+}
+
+.banner-slider {
+	margin-top:12px;
+	margin-bottom: 11px;
+}
+
+.slide {
+	width: 100%;
+}
+
+.main-slide {
+	position: relative; 
+	padding: 0;
+
+	h2 {
+		font-family: 'Arvo';
+		color: #263547;
+		position: absolute; 
+   		bottom: 175px; 
+   		right: 95px;
+   		line-height: 1.1;
+   		text-shadow: 2px 2px 8px #fff; 
+	}
+
+	h4 {
+		font-family: 'Arvo';
+		color: #263547;
+		position: absolute; 
+   		bottom: 107px; 
+   		right: 44px;
+   		text-shadow: 1px 1px 3px #fff;
+   	} 
+
+   	.num a p {
+   		width: 39px;
+   		height: 39px;
+   		position: absolute;
+   		display: inline;
+   		right: 10px;
+   		background: #black;
+   		border-radius: 100%;
+   	}
+
+	// Mobile Query
+	@media (max-width: 400px) {
+		img {
+			padding: 0 5px;
+		}
+	}
+}
+
+.small-slides img {
+	height: 100%;
+	padding: 0;
+	// Mobile Query
+	@media (max-width: 400px) {
+		margin-top: 10px;
+		width: 100%;
+		}
+}
+
+img.sml-slide-1 {
+	max-width: 107%;
+}
+
+img.sml-slide-2 {
+	max-width: 107%;
+	margin-top: 20px;
+}
+.banner-img {
+	border-radius: 100%;
+}
+
+/**********************************
+	CATEGORIES
+***********************************/
+
+.categories {
+ margin-bottom: 25px;
+}
+
+.cat  {
+	margin-top: 10px;
+	color: #8d8d8d;
+	width: 19.7777%;
+	// Mobile Query
+@media (max-width: 400px) {
+		width: 100%;
+	}
+}
+
+.cat a {
+	color: #8d8d8d;
+	font-family: Rockwell;
+}
+
+.icon {
+	margin-top: 6px;
+	margin-right: 9px;
+	text-align: right;
+}
+
+
+/**********************************
+	FOOTER
+***********************************/
+
+footer {
+	background: #0778bd;
+	text-align: center;
+}
+
+.footer-container {
+	padding-top: 17px;
+	padding-bottom: 17px;
+}
+
+.twitter, .facebook {
+	margin-left: 9px;
+}
